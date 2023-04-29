@@ -59,4 +59,11 @@ const comando = require("./routes/comando");
 app.post('/updateluz',comando.updateluz)//done
 app.post('/updateportao',comando.updateportao)
 
+
+
+
+
+
+app.use('/', indexRouter);
+
 module.exports = app;
