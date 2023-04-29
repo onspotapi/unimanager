@@ -62,8 +62,4 @@ app.post('/updateportao',comando.updateportao)
 
 
 
-
-
-app.use('/', indexRouter);
-
 module.exports = app;
